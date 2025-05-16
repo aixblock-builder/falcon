@@ -346,9 +346,6 @@ try:
     )
 
     print("✅ README.md đã được cập nhật.")
-    
-    from model import CHANNEL_STATUS
-    CHANNEL_STATUS[hf_model_id]["status"] = "done"
 
 except Exception as e:
     logger.info(f"Fail {e}")
